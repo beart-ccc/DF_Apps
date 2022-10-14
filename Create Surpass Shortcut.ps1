@@ -3,5 +3,5 @@
    $WScriptShell = New-Object -ComObject WScript.Shell
    $Shortcut = $WScriptShell.CreateShortcut($strLinkFile)
    $Shortcut.TargetPath = $strTargetPath
-   $Shortcut.IconLocation = "%USERPROFILE%\AppData\Local\SurpassViewer\app.ico.mun, 94"
+   $Shortcut.IconLocation = "%USERPROFILE%\AppData\Local\SurpassViewer\app.ico"
    $Shortcut.Save()
