@@ -1,5 +1,5 @@
-   $strTargetPath = "C:\Users\Public\Surpass\SecureClient\SecureClientInitialRun.exe"
-   $strLinkFile = "$env:Public\Desktop\SurpassVwr.lnk"
+   $strTargetPath = "C:\Users\Administrator\AppData\Local\SurpassViewer\Surpass Viewer.exe"
+   $strLinkFile = "$env:Public\Desktop\Surpass Vwr.lnk"
    $WScriptShell = New-Object -ComObject WScript.Shell
    $Shortcut = $WScriptShell.CreateShortcut($strLinkFile)
    $Shortcut.TargetPath = $strTargetPath
